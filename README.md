@@ -1,4 +1,11 @@
 InstanBox
 =========
 
-Campo de busqueda, con sugerencias con cada tipeado de teclado, conectandose asincronicamente, mediante ajax a un backend, recibiendo datos JSON
+Campo de busqueda, que trabaja con el evento de keyup (jQuery) para realizar una busqueda, recibe 
+cómo parametro el proceso a seguir, es decir, donde debe buscar.
+
+Ej. $("campo").(function(){
+           $.ajax({...});  
+        });
+        
+        es decir ustedes le dicen de donde se alimentará...
